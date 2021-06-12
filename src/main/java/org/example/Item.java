@@ -4,6 +4,19 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 
 import java.util.*;
 
+/**
+ * Hello.
+ *
+ * This task took me around 8-10 hours, because I ran into difficulties with parsing the page, methods of parsing, testing, etc.
+ * Unfortunately, I didn't find enough time to improve the source code and complete the work with the colors of the products, because I am flying abroad on vacation.
+ * For myself, of course, I will complete this task, as it is interesting for me.
+ *
+ * Since a different product color is a new product with its own price and ID, I want to process this in the future.
+ *
+ * Thanks anyway for the assignment and for your time!
+ * Have a nice day!
+ */
+
 @JsonAutoDetect
 public class Item {
     private int id;
